@@ -30,7 +30,6 @@ function map(array, cb) {
   // El nuevo array debe tener la misma longitud que el array del argumento
 	var nuevoArray = array.map(elem=>{return cb(elem)})
 	return nuevoArray;
-
 }
 
 // No modificar nada debajo de esta línea
