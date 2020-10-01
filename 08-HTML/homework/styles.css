@@ -1,0 +1,45 @@
+html {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+body {
+    margin: 0;
+    background-attachment: fixed;
+}
+.row {
+    display: flex;
+}
+.center {
+justify-content: center;
+}
+.wrap {
+flex-wrap: wrap;
+}
+
+img { width: 400px; }
+
+#thirdDiv { 
+    height: 600px;
+    width: 500px;
+    background-color: rgb(56, 57, 58);
+    padding: 50px;
+    border: saddlebrown;
+    color:white;
+    text-align: center;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spanId {
+   font-size: 18px;
+   margin: 50px;
+   color: white
+}
+
+#divClass{
+    text-align: center;
+}
+
